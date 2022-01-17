@@ -1,10 +1,7 @@
 $(() => {
 
     const square = $("#square");
-    square.css("background", "red");
+    square.css("width", "500px");
     
 
 });
-
-
-
