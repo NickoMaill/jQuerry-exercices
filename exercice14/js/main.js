@@ -3,8 +3,8 @@ $(() => {
     $(".btn").click(function () {
 
         const text = $("#text");
-        text.addClass("float-right");
+        text.attr("class", "float-right");
 
-    })
+    });
 
-})
+});
