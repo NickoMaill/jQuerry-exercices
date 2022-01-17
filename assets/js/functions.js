@@ -2,7 +2,7 @@ function displaySecretText() {
     $('#exercise #text').show();
 }
 
-//Ma fonction d'affiche
+//Ma fonction d'affichage
 
 function showMyText() {
 
