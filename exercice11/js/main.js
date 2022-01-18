@@ -1,11 +1,19 @@
-$(() => {
+// $(() => {
 
-    $(".btn").click(function () {
+//     $(".btn").click(function () {
 
-        const square = $("#square");
+//         const square = $("#square");
 
-        square.css("background-color", "red");
+//         square.css("background-color", "red");
 
-    });
+//     });
 
-});
+// });
+
+const btn = document.querySelector(".btn");
+const square = document.querySelector("#square");
+
+btn.addEventListener("click", () => {
+    square.style.backgroundColor = "red";
+
+})
