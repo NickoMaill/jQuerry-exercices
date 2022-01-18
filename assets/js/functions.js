@@ -10,3 +10,9 @@ function showMyText() {
     text.css("display", "flex");
 
 }
+
+function showMytext2() {
+    
+    let text = document.querySelector("#text");
+    text.style.display = "block";
+}
