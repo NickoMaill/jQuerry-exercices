@@ -10,6 +10,7 @@ $(() => {
 
 				data.forEach((country) => {
 					console.log(country);
+
 				});
 			},
 		});
