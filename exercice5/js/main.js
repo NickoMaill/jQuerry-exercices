@@ -8,3 +8,4 @@
 const text = document.querySelector("#text");
 
 text.classList.add('float-end'); // float-end = float-right (ancienne version bootstrap);
+
