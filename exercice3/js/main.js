@@ -6,6 +6,6 @@
 
 // });
 
-const square = document.querySelector("#text");
+const text = document.querySelector("#text");
 
-square.style.fontSize = "50px";
+text.style.fontSize = "50px";
