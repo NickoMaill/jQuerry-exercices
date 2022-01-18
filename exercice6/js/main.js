@@ -7,4 +7,4 @@
 
 const text = document.querySelector("#text");
 
-text.append("Konexio!")
+text.append("Konexio!");
