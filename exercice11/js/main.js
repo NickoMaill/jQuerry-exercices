@@ -14,6 +14,6 @@ const btn = document.querySelector(".btn");
 const square = document.querySelector("#square");
 
 btn.addEventListener("click", () => {
-    square.style.backgroundColor = "red";
+    square.style.width = "500px";
 
 })
