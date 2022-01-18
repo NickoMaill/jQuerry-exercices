@@ -14,6 +14,6 @@ const text = document.querySelector("#text");
 
 btn.addEventListener("click", () => {
 
-text.classList.add('float-end'); // float-end = float-right (ancienne version bootstrap);
+    text.setAttribute("class", "float-end"); // float-end = float-right (ancienne version bootstrap);
 
 });
