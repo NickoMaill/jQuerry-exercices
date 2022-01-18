@@ -6,7 +6,7 @@ $(() => {
 
         square.animate({
 
-            width: '500px',
+            width: '500px'
 
         }, 1000);
     });
