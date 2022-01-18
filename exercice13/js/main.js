@@ -1,11 +1,19 @@
-$(() => {
+// $(() => {
 
-    $(".btn").click(function () {
+//     $(".btn").click(function () {
 
-        const text = $("#text");
+//         const text = $("#text");
 
-        text.css("font-size", "50px");
+//         text.css("font-size", "50px");
 
-    });
+//     });
 
-});
+// });
+
+const btn = document.querySelector(".btn");
+const text = document.querySelector("#text");
+
+btn.addEventListener("click", () => {
+    text.style.fontSize = "50px";
+
+})
