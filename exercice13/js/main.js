@@ -14,6 +14,6 @@ const btn = document.querySelector(".btn");
 const text = document.querySelector("#text");
 
 btn.addEventListener("click", () => {
-    text.style.fontSize = "50px";
+    square.style.fontSize = "50px";
 
 })
